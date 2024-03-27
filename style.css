@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+}
+#header {
+    width: auto;
+    margin: 0;
+    background-color: #337add;
+}
+
+
+#headline {
+    font-size: 50px;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    flex: 1;
+    
+}
+
+.buttons > div {
+    margin-top: 50px;
+    flex: 1;
+    text-align: center;
+}
+
+.buttons > div > button {
+    width: 400px;
+    background-color: pink;
+    font-size: 50px;
+    aspect-ratio: 1/1;
+    transition: background-color 0.3s; 
+}
+
+.buttons > div > button:hover {
+    background-color: #d82a86;
+}
+
+.scoreBoard {
+    margin-top: .5em;
+    text-align: center;
+    font-size: 4em;
+}
+
+.compChoice {
+    margin-top: .5em;
+    text-align: center;
+    font-size: 4em;
+}
+.sbCount {
+    text-align: center;
+    font-size: 12em;
+}
